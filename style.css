@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img{
+    margin-top: 10px;
+    max-width: 250px;
+    max-height: 150px;
+    float: center;
+}
+
+.box{
+    padding-inline-start: 10px;
+    position: center;
+    border : 0.1px solid whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px 7px 7px 7px;
+    transition: 0.5s;
+    background-color: silver;
+}
+
+.About{
+    text-align: center;
+}
+
+.navbar {
+    background-color: #950740;
+    overflow: hidden;
+    border : 0.1px rgb(63, 62, 62) solid;
+    margin: 10px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+.navbar a:hover {
+    box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.5);
+    background-color: darkgray;
+}
+
+footer{
+    color:azure;
+    text-align: center;
+}
